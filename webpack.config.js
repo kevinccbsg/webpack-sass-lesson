@@ -31,4 +31,9 @@ module.exports = {
       }
     }),
   ],
+  devServer: {
+    open: true,
+    contentBase: path.join(__dirname, 'dist'),
+    port: 8080,
+  },
 };
