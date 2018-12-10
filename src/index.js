@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import './style.css';
+import './style.scss';
 
 const getPeople = async () => {
   const response = await fetch('https://swapi.co/api/people');
