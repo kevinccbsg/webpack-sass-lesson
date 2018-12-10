@@ -1,0 +1,28 @@
+
+header {
+  background-color: #252525;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #6f6f6f;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+* {
+  font-family: Verdana;
+  color: #ffd700;
+}
