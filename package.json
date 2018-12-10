@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack": "./node_modules/.bin/webpack --config webpack.config.js",
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -23,7 +24,8 @@
     "style-loader": "^0.23.1",
     "webpack": "^4.27.1",
     "webpack-bundle-analyzer": "^3.0.3",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
     "lodash": "^4.17.11"
