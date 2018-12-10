@@ -1,6 +1,8 @@
-import _ from 'lodash';
+import join from 'lodash/join';
 import moment from 'moment';
 import './style.scss';
+
+const _ = { join };
 
 const getPeople = async () => {
   const response = await fetch('https://swapi.co/api/people');
